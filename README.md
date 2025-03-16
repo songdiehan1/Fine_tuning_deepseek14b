@@ -59,4 +59,9 @@ The dataset used for fine-tuning is available on Hugging Face:
 [![Hugging Face Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Congliu/Chinese-DeepSeek-R1-Distill-data-110k)
 
 
+## 🔗 References
+* [DeepSeek on Hugging Face](https://huggingface.co/deepseek-ai)
+* [LoRA for Efficient Fine-Tuning](https://arxiv.org/abs/2106.09685)
+* [Unsloth Library](https://github.com/unslothai/unsloth)
+
 **🔥 Ready to fine-tune DeepSeek? Let’s go! 🚀**
