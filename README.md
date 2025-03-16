@@ -25,15 +25,38 @@ DeepSeek-Finetune/
 │── requirements.txt                 
 │── README.md                        
 ```
+
+📚 Setup & Installation
+### 1️⃣ Install dependencies
+Run the following command to install required libraries:
+```bash
+pip install -r requirements.txt
+```
+Or manually install:
+```
+pip install unsloth transformers datasets huggingface_hub wandb
+```
+### 2️⃣Get Weights & Biases key
+```bash
+import wandb
+wb_token = "xxx"
+wandb.login(key=wb_token)
+run = wandb.init(
+    project='fine_tune_deepseek',
+    job_type="training",
+    anonymous="allow"
+)
+```
+### 3️⃣Get Hugging Face key
+```bash
+from huggingface_hub import login
+hf_token = "xxx"
+login(hf_token)
+```
 ## 📚 Dataset Information
 The dataset used for fine-tuning is available on Hugging Face:  
 
 [![Hugging Face Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Congliu/Chinese-DeepSeek-R1-Distill-data-110k)
 
 
-
-
-
-
-
-🔥 Ready to fine-tune DeepSeek? Let’s go! 🚀
+**🔥 Ready to fine-tune DeepSeek? Let’s go! 🚀**
