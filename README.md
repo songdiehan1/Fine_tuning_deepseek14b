@@ -1,5 +1,5 @@
 # 🚀 DeepSeek-14B Fine-Tuning Project
-This project aims to fine-tune DeepSeek-R1-Distill-Qwen-14B using Zhihu and Xiaohongshu datasets separately. The fine-tuning is conducted using the LoRA method with the Unsloth framework, optimized for Colab + A100 with BF16 support. The repository includes scripts for model training, evaluation, and inference.
+This project aims to fine-tune DeepSeek-R1-Distill-Qwen-14B using Zhihu and Xiaohongshu datasets separately. The fine-tuning is conducted using the LoRA method with the Unsloth framework, optimized for Colab + A100 with BF16 support. 
 
 ## 📁 Project Structure
 ```bash
@@ -29,7 +29,8 @@ DeepSeek-Finetune/
 datasets/raw/zhihu_data.json → Zhihu Dataset (for QA-based conversational fine-tuning)
 datasets/raw/xiaohongshu_data.json → Xiaohongshu Dataset (for social media text generation fine-tuning)
 It is available on Hugging Face:  
-[Chinese-DeepSeek-R1-Distill-Data-110k](https://huggingface.co/datasets/Congliu/Chinese-DeepSeek-R1-Distill-data-110k)
+[![Hugging Face Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Congliu/Chinese-DeepSeek-R1-Distill-data-110k)
+
 
 
 
