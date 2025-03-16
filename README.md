@@ -26,11 +26,8 @@ DeepSeek-Finetune/
 │── README.md                        
 ```
 ## 📚 Dataset Information
-datasets/raw/zhihu_data.json → Zhihu Dataset (for QA-based conversational fine-tuning)
+The dataset used for fine-tuning is available on Hugging Face:  
 
-datasets/raw/xiaohongshu_data.json → Xiaohongshu Dataset (for social media text generation fine-tuning)
-
-It is available on Hugging Face:  
 [![Hugging Face Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Congliu/Chinese-DeepSeek-R1-Distill-data-110k)
 
 
