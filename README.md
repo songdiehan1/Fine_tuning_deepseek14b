@@ -58,6 +58,8 @@ The dataset used for fine-tuning is available on Hugging Face:
 
 [![Hugging Face Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Congliu/Chinese-DeepSeek-R1-Distill-data-110k)
 
+## 🛠 Performance testing is currently in progress.
+**Results and benchmarks will be shared soon!**
 
 ## 🔗 References
 * [DeepSeek on Hugging Face](https://huggingface.co/deepseek-ai)
